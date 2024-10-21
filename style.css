@@ -19,6 +19,9 @@ body {
     justify-content: center;
     gap: 16px;
     font-family: 'Roboto' sans-serif;
+    color: #f9faf8;
+    padding-top: 10px;
+    padding-bottom: 30px;
 }
 
 
@@ -27,7 +30,9 @@ body {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-
+    max-width: 400px;
+    gap: 15px;
+   
     
 }
 
@@ -36,19 +41,14 @@ body {
     flex-direction: column;
     flex-wrap: wrap;
     align-items: flex-end;
-}
-
-
-.header {
-    font-family: 'Roboto', sans-serif;
     background-color: #1f2937;
-    color: white;
-    
-
 }
+
 
 .logo { 
     font-size: 24px;
+    display: flex;
+    margin-bottom: 70px;
     
 }
 
@@ -56,20 +56,19 @@ body {
     list-style: none;
     display: flex;
     gap: 10px;
+    color: #e5e7eb;
+    margin-bottom: 85px;
 
 }
 
-.hero-right {
-    background-color: #1f2937;
-    display: flex;
-    flex-direction: column;
-}
 
 ul {
     list-style: none;
     margin: 0;
     padding: 0;
     list-style-type: none;
+   
+  
     
 }
 
@@ -78,32 +77,29 @@ li {
 
 }
 
-a {
+a, p {
     text-decoration: none;
-    color: white;
+    color:  #e5e7eb;
+    font-size: 18px;
+    flex-wrap: wrap;
+
 }
 
 
 
 
 .hero {
-    color: white;
     background-color: #1f2937;
     font-family: 'Roboto', sans-serif;
-    
-    
-    
-
-   
 
 }
 
 
 
 img {
-    display: flex;
-    flex-direction: row;
-    width: 400px;
+    margin-top: 10px;
+    width: 500px;
+    height: 215px;
     
 }
 
@@ -116,8 +112,19 @@ h1  {
  width: 400px;
  flex-wrap: wrap;
  font-weight: 900;
+ color: #f9faf8;
  
  
+}
+
+button {
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 8px;
+    background: #3882f6;
+    color:#f9faf8;
+    border: #3882f6;
+    font-weight: 600;
 }
 
 
