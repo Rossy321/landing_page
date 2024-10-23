@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+   
 }
 
 
@@ -11,14 +12,14 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
- 
+    font-family: 'Roboto', sans-serif;
+   
 }
 
 .hero {
     display: flex;
     justify-content: center;
     gap: 16px;
-    font-family: 'Roboto' sans-serif;
     color: #f9faf8;
     padding-top: 10px;
     padding-bottom: 30px;
@@ -42,6 +43,7 @@ body {
     flex-wrap: wrap;
     align-items: flex-end;
     background-color: #1f2937;
+    max-width: 400px;
 }
 
 
@@ -49,6 +51,7 @@ body {
     font-size: 24px;
     display: flex;
     margin-bottom: 70px;
+    font-weight: 750px;
     
 }
 
@@ -96,10 +99,11 @@ a, p {
 
 
 
-img {
+.hero-image {
     margin-top: 10px;
-    width: 500px;
+    width: 400px;
     height: 215px;
+    border-style: none;
     
 }
 
@@ -125,6 +129,39 @@ button {
     color:#f9faf8;
     border: #3882f6;
     font-weight: 600;
+}
+
+.content {
+    text-align: center;
+
+}
+
+.title {
+    color: black;
+    font-size: 30px;
+    font-weight: 800;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 42px;
+
+}
+
+.info {
+    max-width: 150px;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border: 5px #3882f6;
+    border-style: ridge;
+    border-radius: 15px;
 }
 
 
