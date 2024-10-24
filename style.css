@@ -124,14 +124,15 @@ h1  {
  
 }
 
-button {
+.walk-button {
     cursor: pointer;
     padding: 8px 16px;
     border-radius: 8px;
     background: #3882f6;
     color:#f9faf8;
-    border: #3882f6;
+    border: 2px solid #3882f6;
     font-weight: 600;
+    max-width: 150px;
 }
 
 .content {
@@ -203,6 +204,54 @@ img {
     margin-top: 10px;
 
 
+}
+
+.action-section {
+    min-height: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blue-box {
+    width: 950px;
+    height: 100px;
+    background-color: #3882f6;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+}
+
+.action-text {
+font-size: 24px;
+font-weight: 800;
+color: #f9faf8;
+
+
+}
+
+.secondary-text {
+    color: #e5e7eb;
+}
+
+.action-button {
+
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 8px; 
+    color: #f9faf8;
+    border: 2px solid #f9faf8;
+    background: #3882f6;
+    font-weight: 600;
+    max-width: 150px;
 }
 
 
