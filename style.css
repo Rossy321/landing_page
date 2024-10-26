@@ -109,6 +109,8 @@ a, p {
     width: 400px;
     height: 215px;
     border-style: none;
+    border-radius: 0px;
+
     
 }
 
@@ -163,8 +165,8 @@ h1  {
 }
 
 img {
-    width: 150px;
-    height: 150px;
+    width: 160px;
+    height: 160px;
     border: 5px #3882f6;
     border-style: ridge;
     border-radius: 15px;
@@ -207,7 +209,7 @@ img {
 }
 
 .action-section {
-    min-height: 25vh;
+    min-height: 20vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -252,6 +254,25 @@ color: #f9faf8;
     background: #3882f6;
     font-weight: 600;
     max-width: 150px;
+}
+
+
+.footer {
+    background-color:#1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85px;
+    min-height: 5vh;
+
+    
+}
+
+.footer-text {
+    min-height: 5vh;
+    color: #f9faf8;
+    padding-top: 10px;
+    
 }
 
 
